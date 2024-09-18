@@ -19,6 +19,7 @@ func generateQRCode(url string, size int) ([]byte, error) {
 }
 
 // Base64Encode encodes a byte slice as a base64 string
+// to encrypt this
 func Base64Encode(data []byte) string {
 	return base64.StdEncoding.EncodeToString(data)
 }
